@@ -45,6 +45,10 @@ docker compose -f src/main/docker/postgresql.yml up -d
 docker compose -f src/main/docker/redis.yml up -d
 ```
 
+```bash
+docker compose -f src/main/docker/kafka.yml up -d
+```
+
 
 <!-- jhipster-needle-startupCommand -->
 
@@ -57,5 +61,6 @@ docker compose -f src/main/docker/redis.yml up -d
 - [Postgresql](documentation/postgresql.md)
 - [Redis](documentation/redis.md)
 - [Dev tools](documentation/dev-tools.md)
+- [Apache Kafka](documentation/apache-kafka.md)
 
 <!-- jhipster-needle-documentation -->

@@ -17,3 +17,5 @@ spring:
   data:
     redis:
       url: ${TEST_REDIS_URL}
+kafka:
+  bootstrap-servers: localhost:9092
