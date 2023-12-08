@@ -281,5 +281,17 @@
       "serverPort" : 8080,
       "configurationFormat" : "yaml"
     }
+  }, {
+    "module" : "spring-boot-devtools",
+    "date" : "2023-12-08T06:34:19.876468Z",
+    "properties" : {
+      "baseName" : "jhlite110",
+      "projectName" : "JHipster Lite 1.1",
+      "endOfLine" : "lf",
+      "indentSize" : 2,
+      "packageName" : "com.mycompany.myapp",
+      "serverPort" : 8080,
+      "configurationFormat" : "yaml"
+    }
   } ]
 }
