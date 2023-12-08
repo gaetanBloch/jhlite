@@ -69,5 +69,6 @@ docker compose -f src/main/docker/mongodb.yml up -d
 - [Mongo DB](documentation/mongo-db.md)
 - [Caffeine](documentation/caffeine.md)
 - [Jpa pages](documentation/jpa-pages.md)
+- [Logs Spy](documentation/logs-spy.md)
 
 <!-- jhipster-needle-documentation -->
