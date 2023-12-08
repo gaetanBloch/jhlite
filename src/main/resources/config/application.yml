@@ -20,6 +20,9 @@ spring:
     redis:
       url: redis://localhost:6379
       database: 0
+    mongodb:
+      database: jhlite110
+      uri: mongodb://localhost:27017/jhlite110
   jpa:
     properties:
       hibernate:

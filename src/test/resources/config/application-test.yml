@@ -17,5 +17,7 @@ spring:
   data:
     redis:
       url: ${TEST_REDIS_URL}
+    mongodb:
+      uri: ${TEST_MONGODB_URI}
 kafka:
   bootstrap-servers: localhost:9092
