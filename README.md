@@ -67,5 +67,6 @@ docker compose -f src/main/docker/mongodb.yml up -d
 - [Dev tools](documentation/dev-tools.md)
 - [Apache Kafka](documentation/apache-kafka.md)
 - [Mongo DB](documentation/mongo-db.md)
+- [Caffeine](documentation/caffeine.md)
 
 <!-- jhipster-needle-documentation -->
