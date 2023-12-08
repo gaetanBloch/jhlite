@@ -14,3 +14,6 @@ spring:
       maximum-pool-size: 2
     url: jdbc:tc:postgresql:16.1:///jhlite110?TC_TMPFS=/testtmpfs:rw
     password: ''
+  data:
+    redis:
+      url: ${TEST_REDIS_URL}
