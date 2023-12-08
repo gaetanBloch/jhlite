@@ -5,6 +5,7 @@
 ### Java
 
 You need to have Java 21:
+
 - [JDK 21](https://openjdk.java.net/projects/jdk/21/)
 
 ### Node.js and NPM
@@ -58,7 +59,6 @@ docker compose -f src/main/docker/mongodb.yml up -d
 docker compose -f src/main/docker/akhq.yml up -d
 ```
 
-
 <!-- jhipster-needle-startupCommand -->
 
 ## Documentation
@@ -77,5 +77,6 @@ docker compose -f src/main/docker/akhq.yml up -d
 - [Logs Spy](documentation/logs-spy.md)
 - [Mongock](documentation/mongock.md)
 - [CORS configuration](documentation/cors-configuration.md)
+- [Cucumber](documentation/cucumber.md)
 
 <!-- jhipster-needle-documentation -->

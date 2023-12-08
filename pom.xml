@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project
+  xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd"
+>
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.mycompany.myapp</groupId>
@@ -41,6 +45,7 @@
     <mongock.version>5.2.2</mongock.version>
     <git-commit-id-plugin.version>7.0.0</git-commit-id-plugin.version>
     <liquibase.version>4.25.0</liquibase.version>
+    <cucumber.version>7.14.1</cucumber.version>
   </properties>
 
   <dependencyManagement>
@@ -233,6 +238,33 @@
       <artifactId>h2</artifactId>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-junit-platform-engine</artifactId>
+      <version>${cucumber.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-java</artifactId>
+      <version>${cucumber.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>io.cucumber</groupId>
+      <artifactId>cucumber-spring</artifactId>
+      <version>${cucumber.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.junit.platform</groupId>
+      <artifactId>junit-platform-suite</artifactId>
+      <scope>test</scope>
+    </dependency>
   </dependencies>
 
   <build>
@@ -358,7 +390,7 @@
               <id>enforce-dependencyConvergence</id>
               <configuration>
                 <rules>
-                  <DependencyConvergence/>
+                  <DependencyConvergence />
                 </rules>
                 <fail>false</fail>
               </configuration>
@@ -630,9 +662,9 @@
               <target>
                 <condition else="false" property="skip.npm" value="true">
                   <and>
-                    <available file="checksums.csv" filepath="${project.build.directory}"/>
-                    <available file="checksums.csv.old" filepath="${project.build.directory}"/>
-                    <filesmatch file1="${project.build.directory}/checksums.csv" file2="${project.build.directory}/checksums.csv.old"/>
+                    <available file="checksums.csv" filepath="${project.build.directory}" />
+                    <available file="checksums.csv.old" filepath="${project.build.directory}" />
+                    <filesmatch file1="${project.build.directory}/checksums.csv" file2="${project.build.directory}/checksums.csv.old" />
                   </and>
                 </condition>
               </target>
