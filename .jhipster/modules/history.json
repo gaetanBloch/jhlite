@@ -26,5 +26,14 @@
       "endOfLine" : "lf",
       "indentSize" : 2
     }
+  }, {
+    "module" : "maven-wrapper",
+    "date" : "2023-12-08T06:31:58.001301Z",
+    "properties" : {
+      "baseName" : "jhlite110",
+      "projectName" : "JHipster Lite 1.1",
+      "endOfLine" : "lf",
+      "indentSize" : 2
+    }
   } ]
 }
