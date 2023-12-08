@@ -557,5 +557,17 @@
       "serverPort" : 8080,
       "configurationFormat" : "yaml"
     }
+  }, {
+    "module" : "spring-boot-cucumber-oauth2-authentication",
+    "date" : "2023-12-08T07:17:48.476898Z",
+    "properties" : {
+      "baseName" : "jhlite110",
+      "projectName" : "JHipster Lite 1.1",
+      "endOfLine" : "lf",
+      "indentSize" : 2,
+      "packageName" : "com.mycompany.myapp",
+      "serverPort" : 8080,
+      "configurationFormat" : "yaml"
+    }
   } ]
 }

@@ -47,6 +47,7 @@
     <liquibase.version>4.25.0</liquibase.version>
     <cucumber.version>7.14.1</cucumber.version>
     <springdoc-openapi-starter-webmvc.version>2.3.0</springdoc-openapi-starter-webmvc.version>
+    <json-web-token.version>0.12.3</json-web-token.version>
   </properties>
 
   <dependencyManagement>
@@ -297,6 +298,27 @@
     <dependency>
       <groupId>org.springframework.security</groupId>
       <artifactId>spring-security-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt-api</artifactId>
+      <version>${json-web-token.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt-impl</artifactId>
+      <version>${json-web-token.version}</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt-jackson</artifactId>
+      <version>${json-web-token.version}</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
