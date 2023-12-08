@@ -113,3 +113,5 @@ management:
       enabled: true
     env:
       enabled: true
+server:
+  port: 8080

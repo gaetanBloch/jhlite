@@ -21,3 +21,5 @@ spring:
       uri: ${TEST_MONGODB_URI}
 kafka:
   bootstrap-servers: localhost:9092
+server:
+  port: 0
