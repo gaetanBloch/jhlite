@@ -87,5 +87,16 @@
       "packageName" : "com.mycompany.myapp",
       "serverPort" : 8080
     }
+  }, {
+    "module" : "gitlab-ci",
+    "date" : "2023-12-08T06:33:00.509328Z",
+    "properties" : {
+      "baseName" : "jhlite110",
+      "projectName" : "JHipster Lite 1.1",
+      "endOfLine" : "lf",
+      "indentSize" : 2,
+      "packageName" : "com.mycompany.myapp",
+      "serverPort" : 8080
+    }
   } ]
 }
