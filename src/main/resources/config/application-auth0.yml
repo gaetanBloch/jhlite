@@ -1,0 +1,17 @@
+application:
+  security:
+    oauth2:
+      audience:
+        - application.security.oauth2.audience=account
+        - api://default
+        - https://dev-123456.us.auth0.com/api/v2/
+spring:
+  security:
+    oauth2:
+      client:
+        provider:
+          oidc:
+            issuer-uri: https://dev-123456.us.auth0.com/
+        registration:
+          oidc:
+            client-id: 0oab8eb55Kb9jdMIr5d6
