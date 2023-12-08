@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: Jhlite110
+  threads:
+    virtual:
+      enabled: true
+logging:
+  level:
+    com:
+      mycompany:
+        myapp: INFO
