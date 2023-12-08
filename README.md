@@ -88,5 +88,6 @@ docker compose -f src/main/docker/keycloak.yml up -d
 - [Cucumber authentication](documentation/cucumber-authentication.md)
 - [Rest pagination](documentation/rest-pagination.md)
 - [Auth0](documentation/auth0.md)
+- [Dummy](documentation/dummy.md)
 
 <!-- jhipster-needle-documentation -->
