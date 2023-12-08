@@ -65,5 +65,16 @@
       "indentSize" : 2,
       "packageName" : "com.mycompany.myapp"
     }
+  }, {
+    "module" : "checkstyle",
+    "date" : "2023-12-08T06:33:00.447081Z",
+    "properties" : {
+      "baseName" : "jhlite110",
+      "projectName" : "JHipster Lite 1.1",
+      "endOfLine" : "lf",
+      "indentSize" : 2,
+      "packageName" : "com.mycompany.myapp",
+      "serverPort" : 8080
+    }
   } ]
 }
