@@ -673,5 +673,19 @@
       "auth0Domain" : "dev-123456.us.auth0.com",
       "auth0ClientId" : "0oab8eb55Kb9jdMIr5d6"
     }
+  }, {
+    "module" : "dummy-jpa-persistence",
+    "date" : "2023-12-08T07:27:19.833315Z",
+    "properties" : {
+      "baseName" : "jhlite110",
+      "projectName" : "JHipster Lite 1.1",
+      "endOfLine" : "lf",
+      "indentSize" : 2,
+      "packageName" : "com.mycompany.myapp",
+      "serverPort" : 8080,
+      "configurationFormat" : "yaml",
+      "auth0Domain" : "dev-123456.us.auth0.com",
+      "auth0ClientId" : "0oab8eb55Kb9jdMIr5d6"
+    }
   } ]
 }
