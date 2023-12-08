@@ -8,5 +8,14 @@
       "endOfLine" : "lf",
       "indentSize" : 2
     }
+  }, {
+    "module" : "application-service-hexagonal-architecture-documentation",
+    "date" : "2023-12-08T06:31:57.953012Z",
+    "properties" : {
+      "baseName" : "jhlite110",
+      "projectName" : "JHipster Lite 1.1",
+      "endOfLine" : "lf",
+      "indentSize" : 2
+    }
   } ]
 }
