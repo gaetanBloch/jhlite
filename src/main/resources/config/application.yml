@@ -63,6 +63,17 @@ spring:
       enabled: false
   liquibase:
     change-log: classpath:config/liquibase/master.xml
+  security:
+    oauth2:
+      client:
+        registration:
+          oidc:
+            client-secret: web_app
+            client-id: web_app
+            scope: openid,profile,email
+        provider:
+          oidc:
+            issuer-uri: http://localhost:9080/realms/jhipster
 logging:
   level:
     com:
@@ -86,6 +97,9 @@ application:
     ehcache:
       time-to-live-seconds: 3600
       max-entries: 100
+  security:
+    oauth2:
+      audience: account,api://default
 mongock:
   migration-scan-package: com.mycompany.myapp
 management:
@@ -94,13 +108,13 @@ management:
       base-path: /management
       exposure:
         include:
-        - configprops
-        - env
-        - health
-        - info
-        - logfile
-        - loggers
-        - threaddump
+          - configprops
+          - env
+          - health
+          - info
+          - logfile
+          - loggers
+          - threaddump
   endpoint:
     health:
       probes:

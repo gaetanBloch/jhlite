@@ -7,6 +7,7 @@ logging:
 spring:
   main:
     banner-mode: 'off'
+    allow-bean-definition-overriding: true
   datasource:
     driver-class-name: org.testcontainers.jdbc.ContainerDatabaseDriver
     username: jhlite110
@@ -19,6 +20,12 @@ spring:
       url: ${TEST_REDIS_URL}
     mongodb:
       uri: ${TEST_MONGODB_URI}
+  security:
+    oauth2:
+      client:
+        provider:
+          oidc:
+            issuer-uri: http://DO_NOT_CALL:9080/realms/jhipster
 kafka:
   bootstrap-servers: localhost:9092
 server:

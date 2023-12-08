@@ -59,6 +59,10 @@ docker compose -f src/main/docker/mongodb.yml up -d
 docker compose -f src/main/docker/akhq.yml up -d
 ```
 
+```bash
+docker compose -f src/main/docker/keycloak.yml up -d
+```
+
 <!-- jhipster-needle-startupCommand -->
 
 ## Documentation
