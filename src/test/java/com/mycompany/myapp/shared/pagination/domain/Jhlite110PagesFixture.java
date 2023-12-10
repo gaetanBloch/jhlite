@@ -1,8 +1,7 @@
 package com.mycompany.myapp.shared.pagination.domain;
 
-import java.util.List;
-
 import com.mycompany.myapp.shared.pagination.domain.Jhlite110Page.Jhlite110PageBuilder;
+import java.util.List;
 
 public final class Jhlite110PagesFixture {
 

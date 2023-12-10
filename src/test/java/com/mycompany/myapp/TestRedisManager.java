@@ -15,13 +15,12 @@ class TestRedisManager implements ApplicationListener<ApplicationEnvironmentPrep
       return;
     }
 
-    redisContainer = new GenericContainer(DockerImageName.parse("redis:7.2.3")).withExposedPorts(6379);;
-
+    redisContainer = new GenericContainer(DockerImageName.parse("redis:7.2.3")).withExposedPorts(6379);
     redisContainer.start();
 
     System.setProperty("TEST_REDIS_URL", "redis://" + redisContainer.getHost() + ":" + redisContainer.getMappedPort(6379));
-    Runtime.getRuntime()
-        .addShutdownHook(new Thread(stopContainer()));
+
+    Runtime.getRuntime().addShutdownHook(new Thread(stopContainer()));
   }
 
   private Runnable stopContainer() {

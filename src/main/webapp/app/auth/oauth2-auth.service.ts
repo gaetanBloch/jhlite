@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import Keycloak, { KeycloakConfig } from 'keycloak-js';
 import { from, Observable, tap } from 'rxjs';
+
 import { environment } from '../../environments/environment';
 
 const MIN_TOKEN_VALIDITY_SECONDS = 70;

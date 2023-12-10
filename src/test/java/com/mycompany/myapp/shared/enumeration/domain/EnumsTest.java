@@ -2,9 +2,9 @@ package com.mycompany.myapp.shared.enumeration.domain;
 
 import static org.assertj.core.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
 import com.mycompany.myapp.UnitTest;
 import com.mycompany.myapp.shared.error.domain.MissingMandatoryValueException;
+import org.junit.jupiter.api.Test;
 
 @UnitTest
 class EnumsTest {

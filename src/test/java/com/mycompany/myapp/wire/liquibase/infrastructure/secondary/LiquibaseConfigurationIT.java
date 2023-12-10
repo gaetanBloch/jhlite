@@ -2,12 +2,12 @@ package com.mycompany.myapp.wire.liquibase.infrastructure.secondary;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.mycompany.myapp.IntegrationTest;
 import liquibase.integration.spring.SpringLiquibase;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
-import com.mycompany.myapp.IntegrationTest;
 
 @IntegrationTest
 class LiquibaseConfigurationIT {

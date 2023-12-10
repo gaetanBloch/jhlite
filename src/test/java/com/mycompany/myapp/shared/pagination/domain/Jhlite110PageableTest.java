@@ -2,11 +2,10 @@ package com.mycompany.myapp.shared.pagination.domain;
 
 import static org.assertj.core.api.Assertions.*;
 
-import org.junit.jupiter.api.Test;
-
 import com.mycompany.myapp.UnitTest;
 import com.mycompany.myapp.shared.error.domain.NumberValueTooHighException;
 import com.mycompany.myapp.shared.error.domain.NumberValueTooLowException;
+import org.junit.jupiter.api.Test;
 
 @UnitTest
 class Jhlite110PageableTest {

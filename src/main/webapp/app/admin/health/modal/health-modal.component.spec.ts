@@ -7,8 +7,8 @@ import { HealthModalComponent } from './health-modal.component';
 class MatDialogMock {
   open() {
     return {
-      afterClosed: () => of(true)
-    }
+      afterClosed: () => of(true),
+    };
   }
 }
 
@@ -18,9 +18,7 @@ describe('HealthModalComponent', () => {
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      providers: [
-        { provide: MAT_DIALOG_DATA, useValue: MatDialogMock }
-      ]
+      providers: [{ provide: MAT_DIALOG_DATA, useValue: MatDialogMock }],
     })
       .overrideTemplate(HealthModalComponent, '')
       .compileComponents();

@@ -1,10 +1,10 @@
 package com.mycompany.myapp.shared.memoizer.domain;
 
+import com.mycompany.myapp.shared.error.domain.Assert;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.function.Function;
 import java.util.function.Supplier;
-import com.mycompany.myapp.shared.error.domain.Assert;
 
 public final class Memoizers {
 

@@ -4,6 +4,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 import static org.assertj.core.api.InstanceOfAssertFactories.type;
 
+import com.mycompany.myapp.UnitTest;
 import com.zaxxer.hikari.HikariDataSource;
 import javax.sql.DataSource;
 import liquibase.integration.spring.SpringLiquibase;
@@ -12,7 +13,6 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceProperties;
 import org.springframework.boot.autoconfigure.liquibase.DataSourceClosingSpringLiquibase;
 import org.springframework.boot.autoconfigure.liquibase.LiquibaseProperties;
 import org.springframework.boot.jdbc.DataSourceBuilder;
-import com.mycompany.myapp.UnitTest;
 
 @UnitTest
 class SpringLiquibaseUtilTest {

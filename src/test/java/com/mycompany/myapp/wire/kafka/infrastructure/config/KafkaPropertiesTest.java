@@ -2,6 +2,7 @@ package com.mycompany.myapp.wire.kafka.infrastructure.config;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.mycompany.myapp.UnitTest;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.util.HashMap;
@@ -11,7 +12,6 @@ import org.apache.kafka.clients.producer.ProducerConfig;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.test.util.ReflectionTestUtils;
-import com.mycompany.myapp.UnitTest;
 
 @UnitTest
 class KafkaPropertiesTest {

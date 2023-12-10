@@ -2,19 +2,17 @@ package com.mycompany.myapp.shared.pagination.infrastructure.secondary;
 
 import static org.assertj.core.api.Assertions.*;
 
+import com.mycompany.myapp.UnitTest;
+import com.mycompany.myapp.shared.error.domain.MissingMandatoryValueException;
+import com.mycompany.myapp.shared.pagination.domain.Jhlite110Page;
+import com.mycompany.myapp.shared.pagination.domain.Jhlite110Pageable;
 import java.util.List;
 import java.util.function.Function;
-
 import org.junit.jupiter.api.Test;
 import org.springframework.data.domain.PageImpl;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
-
-import com.mycompany.myapp.UnitTest;
-import com.mycompany.myapp.shared.error.domain.MissingMandatoryValueException;
-import com.mycompany.myapp.shared.pagination.domain.Jhlite110Page;
-import com.mycompany.myapp.shared.pagination.domain.Jhlite110Pageable;
 
 @UnitTest
 class Jhlite110PagesTest {

@@ -1,15 +1,13 @@
 package com.mycompany.myapp.shared.pagination.infrastructure.secondary;
 
+import com.mycompany.myapp.shared.error.domain.Assert;
+import com.mycompany.myapp.shared.pagination.domain.Jhlite110Page;
+import com.mycompany.myapp.shared.pagination.domain.Jhlite110Pageable;
 import java.util.function.Function;
-
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
-
-import com.mycompany.myapp.shared.error.domain.Assert;
-import com.mycompany.myapp.shared.pagination.domain.Jhlite110Page;
-import com.mycompany.myapp.shared.pagination.domain.Jhlite110Pageable;
 
 public final class Jhlite110Pages {
 

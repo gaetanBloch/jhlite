@@ -3,7 +3,7 @@
     <mat-icon>menu</mat-icon>
   </button>
   <mat-menu #menu="matMenu">
-  <a routerLink="admin/health" mat-menu-item><span>Health</span></a>
+    <a routerLink="admin/health" mat-menu-item><span>Health</span></a>
     <!-- jhipster-needle-angular-menu -->
   </mat-menu>
   <span>{{ appName }}</span>
@@ -13,7 +13,14 @@
   <jhi-login></jhi-login>
 </mat-toolbar>
 
-<img alt="JHipster logo" class="jhipster-logo" ngSrc="../../../../content/images/JHipster-Lite-neon-red.png" width="250" height="47" priority />
+<img
+  alt="JHipster logo"
+  class="jhipster-logo"
+  ngSrc="../../../../content/images/JHipster-Lite-neon-red.png"
+  width="250"
+  height="47"
+  priority
+/>
 
 <router-outlet></router-outlet>
 

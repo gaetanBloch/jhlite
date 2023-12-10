@@ -1,15 +1,14 @@
 package com.mycompany.myapp.shared.pagination.domain;
 
-import java.util.List;
-import java.util.function.Function;
-
 import com.mycompany.myapp.shared.collection.domain.Jhlite110Collections;
 import com.mycompany.myapp.shared.error.domain.Assert;
+import java.util.List;
+import java.util.function.Function;
 
 public class Jhlite110Page<T> {
 
   private static final int MINIMAL_PAGE_COUNT = 1;
-  
+
   private final List<T> content;
   private final int currentPage;
   private final int pageSize;

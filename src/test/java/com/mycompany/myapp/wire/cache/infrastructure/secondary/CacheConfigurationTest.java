@@ -2,6 +2,7 @@ package com.mycompany.myapp.wire.cache.infrastructure.secondary;
 
 import static org.mockito.Mockito.*;
 
+import com.mycompany.myapp.UnitTest;
 import javax.cache.Cache;
 import javax.cache.CacheManager;
 import javax.cache.configuration.Configuration;
@@ -9,7 +10,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.Mock;
 import org.mockito.junit.jupiter.MockitoExtension;
-import com.mycompany.myapp.UnitTest;
 
 @UnitTest
 @ExtendWith(MockitoExtension.class)

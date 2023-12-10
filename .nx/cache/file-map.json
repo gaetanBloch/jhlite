@@ -1,0 +1,1566 @@
+{
+  "version": "6.0",
+  "nxVersion": "17.1.3",
+  "deps": {
+    "keycloak-js": "23.0.1",
+    "@angular/animations": "17.0.6",
+    "@angular/cdk": "17.0.3",
+    "@angular/common": "17.0.6",
+    "@angular/compiler": "17.0.6",
+    "@angular/core": "17.0.6",
+    "@angular/material": "17.0.3",
+    "@angular/forms": "17.0.6",
+    "@angular/platform-browser": "17.0.6",
+    "@angular/platform-browser-dynamic": "17.0.6",
+    "@angular/router": "17.0.6",
+    "rxjs": "7.8.1",
+    "tslib": "2.6.2",
+    "zone.js": "0.14.2",
+    "cypress": "13.6.1",
+    "eslint-plugin-cypress": "2.15.1",
+    "jest": "29.7.0",
+    "@types/jest": "29.5.11",
+    "ts-jest": "29.1.1",
+    "@angular-eslint/builder": "17.1.1",
+    "@angular-eslint/eslint-plugin": "17.1.1",
+    "@angular-eslint/eslint-plugin-template": "17.1.1",
+    "@angular-eslint/schematics": "17.1.1",
+    "@angular-eslint/template-parser": "17.1.1",
+    "@typescript-eslint/eslint-plugin": "6.13.2",
+    "@typescript-eslint/parser": "6.13.2",
+    "eslint": "8.55.0",
+    "@angular-builders/jest": "17.0.0",
+    "@angular-devkit/build-angular": "17.0.6",
+    "@angular/cli": "17.0.6",
+    "@angular/compiler-cli": "17.0.6",
+    "@types/node": "20.10.4",
+    "jest-environment-jsdom": "29.7.0",
+    "jest-preset-angular": "13.1.4",
+    "jest-sonar-reporter": "2.0.0",
+    "typescript": "5.2.2",
+    "eslint-import-resolver-typescript": "3.6.1",
+    "eslint-plugin-import": "2.29.0",
+    "eslint-plugin-prettier": "5.0.1",
+    "@prettier/plugin-xml": "3.2.2",
+    "husky": "8.0.3",
+    "lint-staged": "15.2.0",
+    "prettier": "3.1.0",
+    "prettier-plugin-java": "2.5.0",
+    "prettier-plugin-packagejson": "2.4.7"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".editorconfig",
+        "hash": "863215651575146722"
+      },
+      {
+        "file": ".eslintignore",
+        "hash": "6203915981479148311"
+      },
+      {
+        "file": ".eslintrc.js",
+        "hash": "254231403748756826"
+      },
+      {
+        "file": ".eslintrc.json",
+        "hash": "3282766430958935181"
+      },
+      {
+        "file": ".gitattributes",
+        "hash": "7614790114570546156"
+      },
+      {
+        "file": ".gitignore",
+        "hash": "6018142628826222002"
+      },
+      {
+        "file": ".gitlab-ci.yml",
+        "hash": "992599827752325516"
+      },
+      {
+        "file": ".husky/pre-commit",
+        "hash": "15332853919198133182"
+      },
+      {
+        "file": ".jhipster/modules/history.json",
+        "hash": "9024780141736034506"
+      },
+      {
+        "file": ".lintstagedrc.js",
+        "hash": "13036620532326775787"
+      },
+      {
+        "file": ".mvn/wrapper/maven-wrapper.jar",
+        "hash": "5725047474660621134"
+      },
+      {
+        "file": ".mvn/wrapper/maven-wrapper.properties",
+        "hash": "17624158715979120569"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "9444287742198034727"
+      },
+      {
+        "file": ".prettierrc",
+        "hash": "11751972261214139809"
+      },
+      {
+        "file": "Dockerfile",
+        "hash": "10736899198246750896"
+      },
+      {
+        "file": "LICENSE.txt",
+        "hash": "629751412323457731"
+      },
+      {
+        "file": "README.md",
+        "hash": "12769889364061520720"
+      },
+      {
+        "file": "angular.json",
+        "hash": "4072346568341703309"
+      },
+      {
+        "file": "checkstyle.xml",
+        "hash": "5359619986203292865"
+      },
+      {
+        "file": "documentation/apache-kafka.md",
+        "hash": "12860277677943821582"
+      },
+      {
+        "file": "documentation/assertions.md",
+        "hash": "3346995625291060690"
+      },
+      {
+        "file": "documentation/auth0.md",
+        "hash": "4853740814104101244"
+      },
+      {
+        "file": "documentation/caffeine.md",
+        "hash": "8426539803809083375"
+      },
+      {
+        "file": "documentation/cors-configuration.md",
+        "hash": "2792932834973451088"
+      },
+      {
+        "file": "documentation/cucumber-authentication.md",
+        "hash": "12756637985278252080"
+      },
+      {
+        "file": "documentation/cucumber.md",
+        "hash": "8225200077499791746"
+      },
+      {
+        "file": "documentation/dev-tools.md",
+        "hash": "5875075763968241366"
+      },
+      {
+        "file": "documentation/dummy.md",
+        "hash": "18074348367932797596"
+      },
+      {
+        "file": "documentation/hexagonal-architecture.md",
+        "hash": "3407602383838404297"
+      },
+      {
+        "file": "documentation/hexagonal-flow.png",
+        "hash": "1759306629063956484"
+      },
+      {
+        "file": "documentation/hexagonal-global-schema.png",
+        "hash": "3377496453870320304"
+      },
+      {
+        "file": "documentation/jpa-pages.md",
+        "hash": "7523553856732832678"
+      },
+      {
+        "file": "documentation/kipe-authorization.md",
+        "hash": "11830080351550046316"
+      },
+      {
+        "file": "documentation/kipe-expression.md",
+        "hash": "9198270864844000637"
+      },
+      {
+        "file": "documentation/logs-spy.md",
+        "hash": "8103188415860863720"
+      },
+      {
+        "file": "documentation/mongo-db.md",
+        "hash": "10599464042336360626"
+      },
+      {
+        "file": "documentation/mongock.md",
+        "hash": "14996465644895247406"
+      },
+      {
+        "file": "documentation/package-types.md",
+        "hash": "6335182153203765496"
+      },
+      {
+        "file": "documentation/postgresql.md",
+        "hash": "9645626516646278123"
+      },
+      {
+        "file": "documentation/redis.md",
+        "hash": "11126645446467041209"
+      },
+      {
+        "file": "documentation/rest-pagination.md",
+        "hash": "14919043390160040976"
+      },
+      {
+        "file": "documentation/sonar.md",
+        "hash": "15171842041317175879"
+      },
+      {
+        "file": "jest.conf.js",
+        "hash": "4224261390662183206"
+      },
+      {
+        "file": "jest.config.js",
+        "hash": "10470890164021258052"
+      },
+      {
+        "file": "mvnw",
+        "hash": "10858413877392711519"
+      },
+      {
+        "file": "mvnw.cmd",
+        "hash": "728471849256328259"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "11449895685242640868"
+      },
+      {
+        "file": "package.json",
+        "hash": "2035461497192701792"
+      },
+      {
+        "file": "pom.xml",
+        "hash": "12616760430010977634"
+      },
+      {
+        "file": "proxy.conf.json",
+        "hash": "14593754378497889589"
+      },
+      {
+        "file": "sonar-project.properties",
+        "hash": "1469322822062800914"
+      },
+      {
+        "file": "src/main/docker/akhq.yml",
+        "hash": "4124473170887500449"
+      },
+      {
+        "file": "src/main/docker/jib/entrypoint.sh",
+        "hash": "13094899367744508999"
+      },
+      {
+        "file": "src/main/docker/kafka.yml",
+        "hash": "2775805439584747290"
+      },
+      {
+        "file": "src/main/docker/keycloak-realm-config/jhipster-realm.json",
+        "hash": "12842221078740400221"
+      },
+      {
+        "file": "src/main/docker/keycloak.yml",
+        "hash": "14025025193725880528"
+      },
+      {
+        "file": "src/main/docker/mongodb.yml",
+        "hash": "4402482835054922853"
+      },
+      {
+        "file": "src/main/docker/postgresql.yml",
+        "hash": "8469535229479607036"
+      },
+      {
+        "file": "src/main/docker/redis.yml",
+        "hash": "2140591206874571290"
+      },
+      {
+        "file": "src/main/docker/sonar.yml",
+        "hash": "2939321099352599822"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/ApplicationStartupTraces.java",
+        "hash": "10320662216345147673"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/BusinessContext.java",
+        "hash": "10561109141087012522"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/Jhlite110App.java",
+        "hash": "14514278966793519823"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/SharedKernel.java",
+        "hash": "11599330037086240861"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/account/application/AccountsApplicationService.java",
+        "hash": "10456122672753561987"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/account/domain/Account.java",
+        "hash": "1445616770891638044"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/account/domain/AccountsRepository.java",
+        "hash": "10643282555924826981"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/account/infrastructure/primary/AccountsResource.java",
+        "hash": "2916210555068029850"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/account/infrastructure/primary/RestAccount.java",
+        "hash": "16778417668204661098"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/account/infrastructure/secondary/OAuth2AccountsRepository.java",
+        "hash": "7484797133538128885"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/account/infrastructure/secondary/OAuth2AuthenticationReader.java",
+        "hash": "3769255511149989023"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/account/infrastructure/secondary/UnknownAuthenticationSchemeException.java",
+        "hash": "17240053338984580597"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/account/package-info.java",
+        "hash": "16804909924247748356"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/application/BeerIdAccessChecker.java",
+        "hash": "15231634796856185643"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/application/BeerResource.java",
+        "hash": "4617523040002058933"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/application/BeerToCreateAccessChecker.java",
+        "hash": "11441555669234290421"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/application/BeersAccessesConfiguration.java",
+        "hash": "9964729779047300775"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/application/BeersApplicationService.java",
+        "hash": "16236202130259397661"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/domain/Amount.java",
+        "hash": "18433241471188487566"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/domain/BeerId.java",
+        "hash": "9627288064401162892"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/domain/beer/Beer.java",
+        "hash": "2819694395417529451"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/domain/beer/BeerName.java",
+        "hash": "4886626335381154567"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/domain/beer/BeerSellingState.java",
+        "hash": "16930272526242370508"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/domain/beer/BeerToCreate.java",
+        "hash": "6411635675451177234"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/domain/beer/Beers.java",
+        "hash": "18039362302159997369"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/domain/beer/BeersCreator.java",
+        "hash": "1355650944812827838"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/domain/beer/BeersRemover.java",
+        "hash": "5251846483824041865"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/domain/beer/BeersRepository.java",
+        "hash": "9010435649380821494"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/domain/beer/UnknownBeerException.java",
+        "hash": "12309228713617839711"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/domain/order/BeerOrder.java",
+        "hash": "4894716353619501586"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/domain/order/BeerOrderLine.java",
+        "hash": "14563033289446302452"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/domain/order/OrderedBeer.java",
+        "hash": "2630145446117179554"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/infrastructure/primary/beer/BeersResource.java",
+        "hash": "8457798571433228263"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/infrastructure/primary/beer/RestBeer.java",
+        "hash": "10535310595194517035"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/infrastructure/primary/beer/RestBeerToCreate.java",
+        "hash": "11400403844615538952"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/infrastructure/primary/beer/RestBeers.java",
+        "hash": "15888995233117182497"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/infrastructure/secondary/BeerEntity.java",
+        "hash": "1101550476622324793"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/infrastructure/secondary/JpaBeersRepository.java",
+        "hash": "7996776961631780350"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/infrastructure/secondary/SpringDataBeersRepository.java",
+        "hash": "8474841454304601633"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/dummy/package-info.java",
+        "hash": "14068234503044410322"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/application/AuthenticatedUser.java",
+        "hash": "18020860962043268240"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/application/AuthenticationException.java",
+        "hash": "6061555539296603936"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/application/NotAuthenticatedUserException.java",
+        "hash": "13767557701732845948"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/application/UnknownAuthenticationException.java",
+        "hash": "12283249550562702587"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/domain/Role.java",
+        "hash": "18017870810749588916"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/domain/Roles.java",
+        "hash": "4774426581053287984"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/domain/Username.java",
+        "hash": "6005443697120427092"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/ApplicationSecurityProperties.java",
+        "hash": "2057340409523255745"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/AudienceValidator.java",
+        "hash": "9765607798916539045"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/AuthenticationExceptionAdvice.java",
+        "hash": "2584212200164432825"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/Claims.java",
+        "hash": "1358006945430720983"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/CustomClaimConverter.java",
+        "hash": "6501502098461512556"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/JwtGrantedAuthorityConverter.java",
+        "hash": "14467960297981355326"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/OAuth2Configuration.java",
+        "hash": "2720121817737217023"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/SecurityConfiguration.java",
+        "hash": "4755352911574225641"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/authentication/package-info.java",
+        "hash": "7258739569211647642"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/collection/domain/Jhlite110Collections.java",
+        "hash": "9206682727580650449"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/collection/package-info.java",
+        "hash": "15916762919576063057"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/enumeration/domain/Enums.java",
+        "hash": "7310862736479906863"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/enumeration/domain/UnmappableEnumException.java",
+        "hash": "10880185399598874823"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/enumeration/package-info.java",
+        "hash": "14267146380129167869"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/error/domain/Assert.java",
+        "hash": "4676495716733585213"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/error/domain/AssertionErrorType.java",
+        "hash": "15203781004844084020"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/error/domain/AssertionException.java",
+        "hash": "2936024214040866200"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/error/domain/MissingMandatoryValueException.java",
+        "hash": "5772262268825817808"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/error/domain/NotAfterTimeException.java",
+        "hash": "8810756960570731144"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/error/domain/NotBeforeTimeException.java",
+        "hash": "15671281963516561970"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/error/domain/NullElementInCollectionException.java",
+        "hash": "11566556050708145821"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/error/domain/NumberValueTooHighException.java",
+        "hash": "9451710423071585804"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/error/domain/NumberValueTooLowException.java",
+        "hash": "909647836878023859"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/error/domain/StringTooLongException.java",
+        "hash": "12479970840486192440"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/error/domain/StringTooShortException.java",
+        "hash": "14616266438520773649"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/error/domain/TooManyElementsException.java",
+        "hash": "4076949382807365526"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/error/infrastructure/primary/BeanValidationErrorsHandler.java",
+        "hash": "893236855827451620"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/error/package-info.java",
+        "hash": "14109070037455541771"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/generation/domain/ExcludeFromGeneratedCodeCoverage.java",
+        "hash": "5628388008380851323"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/generation/package-info.java",
+        "hash": "8405192985475045731"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/application/AccessChecker.java",
+        "hash": "2700481894543370579"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/application/AccessContext.java",
+        "hash": "16326102395521661091"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/application/AccessContextFactory.java",
+        "hash": "10698996806403045757"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/application/AccessEvaluator.java",
+        "hash": "1467821205910221229"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/application/ElementAccessContext.java",
+        "hash": "287719734285538539"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/application/Jhlite110Authorizations.java",
+        "hash": "7411315123729860668"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/application/KipeConfiguration.java",
+        "hash": "484920254807905936"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/application/KipeMethodSecurityExpressionHandler.java",
+        "hash": "3541865196731877668"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/application/KipeMethodSecurityExpressionRoot.java",
+        "hash": "17259113176110494674"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/application/NullElementAccessContext.java",
+        "hash": "4628328619079518418"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/application/ObjectAccessChecker.java",
+        "hash": "12553477462031886093"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/domain/Accesses.java",
+        "hash": "1973130420921516297"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/domain/Action.java",
+        "hash": "15024013111636067418"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/domain/Resource.java",
+        "hash": "9574603940861563510"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/domain/RolesAccesses.java",
+        "hash": "5735881160906310678"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/kipe/package-info.java",
+        "hash": "140836014519548620"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/memoizer/domain/Memoizers.java",
+        "hash": "11585938303284549798"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/memoizer/package-info.java",
+        "hash": "8671141067555869799"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/pagination/domain/Jhlite110Page.java",
+        "hash": "9873633655246864141"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/pagination/domain/Jhlite110Pageable.java",
+        "hash": "13523659116199913606"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/pagination/infrastructure/primary/RestJhlite110Page.java",
+        "hash": "12534307712397139962"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/pagination/infrastructure/primary/RestJhlite110Pageable.java",
+        "hash": "4213983511418288290"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/pagination/infrastructure/secondary/Jhlite110Pages.java",
+        "hash": "13974736972615207199"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/pagination/package-info.java",
+        "hash": "12614203979325504936"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/useridentity/domain/Email.java",
+        "hash": "5386849327152009622"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/useridentity/domain/Firstname.java",
+        "hash": "9601666481766063679"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/useridentity/domain/Lastname.java",
+        "hash": "10899257944895208759"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/useridentity/domain/Name.java",
+        "hash": "13270945326108921717"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/shared/useridentity/package-info.java",
+        "hash": "13693313773452044367"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/async/infrastructure/secondary/AsyncConfiguration.java",
+        "hash": "13733082951242122345"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/cache/infrastructure/secondary/CacheConfiguration.java",
+        "hash": "7466915482929142353"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/cache/infrastructure/secondary/EhcacheProperties.java",
+        "hash": "15826403027224341487"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/frontend/infrastructure/primary/RedirectionResource.java",
+        "hash": "14928079381358573522"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/frontend/package-info.java",
+        "hash": "6308308213000925629"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/gitinfo/infrastructure/primary/GitInfoConfiguration.java",
+        "hash": "6672065565718843004"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/gitinfo/package-info.java",
+        "hash": "17301563351525327036"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/kafka/infrastructure/config/KafkaConfiguration.java",
+        "hash": "10931393534481994819"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/kafka/infrastructure/config/KafkaProperties.java",
+        "hash": "2750397495194137946"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/liquibase/infrastructure/secondary/AsyncSpringLiquibase.java",
+        "hash": "8964925111406695764"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/liquibase/infrastructure/secondary/LiquibaseConfiguration.java",
+        "hash": "1738309946513964129"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/liquibase/infrastructure/secondary/SpringLiquibaseUtil.java",
+        "hash": "8153443830841852854"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/mongock/infrastructure/secondary/MongockDatabaseConfiguration.java",
+        "hash": "16131399486118897969"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/mongodb/infrastructure/secondary/JSR310DateConverters.java",
+        "hash": "1104618186269920360"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/mongodb/infrastructure/secondary/MongodbDatabaseConfiguration.java",
+        "hash": "5416149906097463258"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/postgresql/infrastructure/secondary/DatabaseConfiguration.java",
+        "hash": "16656587620369949580"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/redis/infrastructure/secondary/JSR310DateConverters.java",
+        "hash": "15335221808109133022"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/redis/infrastructure/secondary/RedisDatabaseConfiguration.java",
+        "hash": "9698650900092661567"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/security/infrastructure/primary/CorsFilterConfiguration.java",
+        "hash": "1738512810251420539"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/security/infrastructure/primary/CorsProperties.java",
+        "hash": "6619613209285296849"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/security/package-info.java",
+        "hash": "18344452904440515349"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/springdoc/infrastructure/primary/SpringdocConfiguration.java",
+        "hash": "7748607094115607237"
+      },
+      {
+        "file": "src/main/java/com/mycompany/myapp/wire/springdoc/infrastructure/primary/SpringdocOAuth2Configuration.java",
+        "hash": "10220154961322489427"
+      },
+      {
+        "file": "src/main/resources/config/application-auth0.yml",
+        "hash": "6404139959494033732"
+      },
+      {
+        "file": "src/main/resources/config/application-local.yml",
+        "hash": "12741406897470121137"
+      },
+      {
+        "file": "src/main/resources/config/application.yml",
+        "hash": "258980713720498025"
+      },
+      {
+        "file": "src/main/resources/config/liquibase/changelog/0000000000_example.xml",
+        "hash": "4637595343131773873"
+      },
+      {
+        "file": "src/main/resources/config/liquibase/changelog/20231208072718_dummy_feature_schema.xml",
+        "hash": "11871330342654576857"
+      },
+      {
+        "file": "src/main/resources/config/liquibase/master.xml",
+        "hash": "16182854108853082804"
+      },
+      {
+        "file": "src/main/resources/logback-spring.xml",
+        "hash": "3990548114495617732"
+      },
+      {
+        "file": "src/main/resources/public/error/404.html",
+        "hash": "17825686275531681616"
+      },
+      {
+        "file": "src/main/webapp/app/admin/admin-routing.module.spec.ts",
+        "hash": "9790135702147278497"
+      },
+      {
+        "file": "src/main/webapp/app/admin/admin-routing.module.ts",
+        "hash": "7781060067667567"
+      },
+      {
+        "file": "src/main/webapp/app/admin/health/health.component.css",
+        "hash": "8615155730621494910"
+      },
+      {
+        "file": "src/main/webapp/app/admin/health/health.component.html",
+        "hash": "16281506820315381811"
+      },
+      {
+        "file": "src/main/webapp/app/admin/health/health.component.spec.ts",
+        "hash": "10129660010428233461"
+      },
+      {
+        "file": "src/main/webapp/app/admin/health/health.component.ts",
+        "hash": "13008439950348215461"
+      },
+      {
+        "file": "src/main/webapp/app/admin/health/health.model.ts",
+        "hash": "1047922795530745889"
+      },
+      {
+        "file": "src/main/webapp/app/admin/health/health.service.spec.ts",
+        "hash": "917089020947304646"
+      },
+      {
+        "file": "src/main/webapp/app/admin/health/health.service.ts",
+        "hash": "2415890307414266729"
+      },
+      {
+        "file": "src/main/webapp/app/admin/health/modal/health-modal.component.css",
+        "hash": "605045446824992345"
+      },
+      {
+        "file": "src/main/webapp/app/admin/health/modal/health-modal.component.html",
+        "hash": "17917774658327360775"
+      },
+      {
+        "file": "src/main/webapp/app/admin/health/modal/health-modal.component.spec.ts",
+        "hash": "563156575447616346"
+      },
+      {
+        "file": "src/main/webapp/app/admin/health/modal/health-modal.component.ts",
+        "hash": "15282633174087171199"
+      },
+      {
+        "file": "src/main/webapp/app/app.component.css",
+        "hash": "5739174243325797755"
+      },
+      {
+        "file": "src/main/webapp/app/app.component.html",
+        "hash": "518886319490780809"
+      },
+      {
+        "file": "src/main/webapp/app/app.component.spec.ts",
+        "hash": "17050810506766699670"
+      },
+      {
+        "file": "src/main/webapp/app/app.component.ts",
+        "hash": "10539338231412266862"
+      },
+      {
+        "file": "src/main/webapp/app/app.route.spec.ts",
+        "hash": "10720093523384047842"
+      },
+      {
+        "file": "src/main/webapp/app/app.route.ts",
+        "hash": "7555797955535059561"
+      },
+      {
+        "file": "src/main/webapp/app/auth/http-auth.interceptor.spec.ts",
+        "hash": "16124889947952041707"
+      },
+      {
+        "file": "src/main/webapp/app/auth/http-auth.interceptor.ts",
+        "hash": "11100211962640814434"
+      },
+      {
+        "file": "src/main/webapp/app/auth/oauth2-auth.service.spec.ts",
+        "hash": "3501391198484216"
+      },
+      {
+        "file": "src/main/webapp/app/auth/oauth2-auth.service.ts",
+        "hash": "13436068006429815899"
+      },
+      {
+        "file": "src/main/webapp/app/common/domain/Optional.ts",
+        "hash": "17364380856263130925"
+      },
+      {
+        "file": "src/main/webapp/app/config/application-config.service.spec.ts",
+        "hash": "15611125605105172790"
+      },
+      {
+        "file": "src/main/webapp/app/config/application-config.service.ts",
+        "hash": "4664719411304309495"
+      },
+      {
+        "file": "src/main/webapp/app/login/login.component.html",
+        "hash": "15217375859024047286"
+      },
+      {
+        "file": "src/main/webapp/app/login/login.component.spec.ts",
+        "hash": "14411424312411489972"
+      },
+      {
+        "file": "src/main/webapp/app/login/login.component.ts",
+        "hash": "3247238651196625482"
+      },
+      {
+        "file": "src/main/webapp/content/images/AngularLogo.svg",
+        "hash": "7734264382746051875"
+      },
+      {
+        "file": "src/main/webapp/content/images/JHipster-Lite-neon-red.png",
+        "hash": "17738342771430361397"
+      },
+      {
+        "file": "src/main/webapp/environments/environment.prod.spec.ts",
+        "hash": "12783248670324310470"
+      },
+      {
+        "file": "src/main/webapp/environments/environment.prod.ts",
+        "hash": "8669864379825818151"
+      },
+      {
+        "file": "src/main/webapp/environments/environment.spec.ts",
+        "hash": "13710974791640574248"
+      },
+      {
+        "file": "src/main/webapp/environments/environment.ts",
+        "hash": "14067025944855059113"
+      },
+      {
+        "file": "src/main/webapp/index.html",
+        "hash": "14491234957454824533"
+      },
+      {
+        "file": "src/main/webapp/main.ts",
+        "hash": "3703904004900961258"
+      },
+      {
+        "file": "src/main/webapp/polyfills.ts",
+        "hash": "13952578668946952738"
+      },
+      {
+        "file": "src/main/webapp/styles.css",
+        "hash": "15163356917117649811"
+      },
+      {
+        "file": "src/test/features/.gitkeep",
+        "hash": "3244421341483603138"
+      },
+      {
+        "file": "src/test/features/beers-catalog.feature",
+        "hash": "18145684410433472355"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/AnnotationArchTest.java",
+        "hash": "11548447117388641791"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/ApplicationStartupTracesTest.java",
+        "hash": "4368498254800151362"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/BeanValidationAssertions.java",
+        "hash": "18298461799023541540"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/BeanValidationTest.java",
+        "hash": "7076796839828853226"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/ComponentTest.java",
+        "hash": "6367490600526467112"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/HexagonalArchTest.java",
+        "hash": "9380108088509676347"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/HttpSteps.java",
+        "hash": "12826413594833765526"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/IntegrationTest.java",
+        "hash": "5202420954752650159"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/JsonHelper.java",
+        "hash": "5941526813706170123"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/KafkaTestContainerExtension.java",
+        "hash": "18408229969725055040"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/Logs.java",
+        "hash": "3247519162958262542"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/LogsSpy.java",
+        "hash": "5595585154844432606"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/LogsSpyExtension.java",
+        "hash": "5872316480709409982"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/ReplaceCamelCase.java",
+        "hash": "3952928358428905963"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/TestMongoDBManager.java",
+        "hash": "5670202682852413047"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/TestRedisManager.java",
+        "hash": "1707703310618456944"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/UnitTest.java",
+        "hash": "6137380925515371306"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/account/domain/AccountsFixture.java",
+        "hash": "5162924796343905217"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/account/infrastructure/OAuth2TokenFixture.java",
+        "hash": "17266254475546147502"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/account/infrastructure/primary/AccountsResourceIT.java",
+        "hash": "17419516658259180938"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/account/infrastructure/primary/AccountsResourceTest.java",
+        "hash": "16211365538749518913"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/account/infrastructure/primary/RestAccountTest.java",
+        "hash": "386223029765544716"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/account/infrastructure/secondary/OAuth2AuthenticationReaderTest.java",
+        "hash": "15741580610897951658"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/AsyncElementAsserter.java",
+        "hash": "13664429251338511500"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/AsyncHeaderAsserter.java",
+        "hash": "6933209199927967374"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/AsyncResponseAsserter.java",
+        "hash": "8501869521363968285"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/Awaiter.java",
+        "hash": "1643511111679249839"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/CucumberAssertions.java",
+        "hash": "3785914847306388646"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/CucumberAuthenticationConfiguration.java",
+        "hash": "6072802858278081999"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/CucumberConfiguration.java",
+        "hash": "7800426603614617993"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/CucumberJpaReset.java",
+        "hash": "10802504792577853828"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/CucumberJson.java",
+        "hash": "16963562469999031030"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/CucumberRestTemplate.java",
+        "hash": "10450038072791041462"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/CucumberTest.java",
+        "hash": "4017202725901467700"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/CucumberTestContext.java",
+        "hash": "2328782223119098023"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/CucumberTestContextUnitTest.java",
+        "hash": "6296258209909797145"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/ElementAsserter.java",
+        "hash": "12756908520055649735"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/ElementAssertions.java",
+        "hash": "12527572103440653480"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/HeaderAsserter.java",
+        "hash": "4494080142254265838"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/HeaderAssertions.java",
+        "hash": "3553249475839701577"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/ResponseAsserter.java",
+        "hash": "3674005069914653613"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/SyncElementAsserter.java",
+        "hash": "12466386627838528041"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/SyncHeaderAsserter.java",
+        "hash": "7998731380121357393"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/cucumber/SyncResponseAsserter.java",
+        "hash": "7453043480498693921"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/application/BeerIdAccessCheckerTest.java",
+        "hash": "9789592850454105211"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/application/BeerToCreateAccessCheckerTest.java",
+        "hash": "16649704048405053527"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/domain/AmountTest.java",
+        "hash": "17732226335997661145"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/domain/BeersIdentityFixture.java",
+        "hash": "639068233016079106"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/domain/beer/BeersFixture.java",
+        "hash": "5458495863088606804"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/domain/beer/BeersRemoverTest.java",
+        "hash": "18420343555181632873"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/domain/beer/BeersTest.java",
+        "hash": "16277857357974763685"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/domain/order/BeerOrderFixture.java",
+        "hash": "14030323692973483358"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/domain/order/BeerOrderTest.java",
+        "hash": "7597816132543620701"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/infrastructure/primary/beer/BeersSteps.java",
+        "hash": "12991182949469961327"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/infrastructure/primary/beer/RestBeerTest.java",
+        "hash": "8811625586741826307"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/infrastructure/primary/beer/RestBeerToCreateTest.java",
+        "hash": "17978279684757446120"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/infrastructure/primary/beer/RestBeersTest.java",
+        "hash": "5416873562626440037"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/infrastructure/secondary/BeerEntityTest.java",
+        "hash": "4754099515284276371"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/dummy/infrastructure/secondary/JpaBeersRepositoryIT.java",
+        "hash": "8604896510457105336"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/application/AuthenticatedUserTest.java",
+        "hash": "3661917679354278481"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/domain/RoleTest.java",
+        "hash": "7832418838658309235"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/domain/RolesTest.java",
+        "hash": "4893401997780061152"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/domain/UsernameTest.java",
+        "hash": "6109490941909939969"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/AccountExceptionResource.java",
+        "hash": "16963777746921734094"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/ApplicationSecurityPropertiesTest.java",
+        "hash": "13087850106903028445"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/AudienceValidatorTest.java",
+        "hash": "15521859546050875341"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/AuthenticationExceptionAdviceIT.java",
+        "hash": "14783759951635736294"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/AuthenticationSteps.java",
+        "hash": "6142548917468799951"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/ClaimsTest.java",
+        "hash": "11577274291465983577"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/CustomClaimConverterTest.java",
+        "hash": "1376118448805601965"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/FakeRequestAttributes.java",
+        "hash": "6637983413838496608"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/JwtGrantedAuthorityConverterTest.java",
+        "hash": "11072418898663181120"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/SecurityConfigurationIT.java",
+        "hash": "9959504043753394540"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/TestSecurityConfiguration.java",
+        "hash": "5170431465435317437"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/authentication/infrastructure/primary/WithUnauthenticatedMockUser.java",
+        "hash": "2032446904751084151"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/collection/domain/Jhlite110CollectionsTest.java",
+        "hash": "18114111629110513106"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/enumeration/domain/EnumsTest.java",
+        "hash": "4574599555884795179"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/error/domain/AssertTest.java",
+        "hash": "11759718975035976157"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/error/domain/MissingMandatoryValueExceptionTest.java",
+        "hash": "12859282623629498354"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/error/domain/NotAfterTimeExceptionTest.java",
+        "hash": "8131817339800510032"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/error/domain/NotBeforeTimeExceptionTest.java",
+        "hash": "12218558011840631373"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/error/domain/NullElementInCollectionExceptionTest.java",
+        "hash": "2980819933335158916"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/error/domain/NumberValueTooHighExceptionTest.java",
+        "hash": "16332090965713087787"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/error/domain/NumberValueTooLowExceptionTest.java",
+        "hash": "15306019789911083189"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/error/domain/StringTooLongExceptionTest.java",
+        "hash": "692018889917408597"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/error/domain/StringTooShortExceptionTest.java",
+        "hash": "4395232885750033627"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/error/domain/TooManyElementsExceptionTest.java",
+        "hash": "5973670229174521974"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/error/infrastructure/primary/BeanValidationErrorsHandlerIT.java",
+        "hash": "16946004694218131190"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/error/infrastructure/primary/BeanValidationErrorsHandlerTest.java",
+        "hash": "10750283318109013538"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/error_generator/infrastructure/primary/BeanValidationErrorsResource.java",
+        "hash": "286544330771378365"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/error_generator/infrastructure/primary/RestMandatoryParameter.java",
+        "hash": "780973935320021483"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/kipe/application/AccessCheckerIT.java",
+        "hash": "17950476982519293593"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/kipe/application/AccessContextFactoryTest.java",
+        "hash": "12493811652553762064"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/kipe/application/AccessEvaluatorTest.java",
+        "hash": "8457690138365325405"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/kipe/application/Jhlite110AuthorizationsTest.java",
+        "hash": "12320937320911492097"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/kipe/application/KipeApplicationService.java",
+        "hash": "16236579822429757744"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/kipe/application/KipeDummyAccessChecker.java",
+        "hash": "6153446864171996645"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/kipe/application/KipeIT.java",
+        "hash": "16335962664539070155"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/kipe/application/ObjectAccessCheckerTest.java",
+        "hash": "1023123268646172066"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/kipe/application/TestAuthentications.java",
+        "hash": "7912111937456697057"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/kipe/domain/ActionTest.java",
+        "hash": "8837923826456254467"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/kipe/domain/KipeDummy.java",
+        "hash": "9933778566428686709"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/kipe/domain/KipeDummyChild.java",
+        "hash": "2783479171546424179"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/kipe/domain/RolesAccessesFixture.java",
+        "hash": "937192958591936094"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/kipe/domain/RolesAccessesTest.java",
+        "hash": "4577609019514779982"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/memoizer/domain/MemoizersTest.java",
+        "hash": "16071630880594506308"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/pagination/domain/Jhlite110PageTest.java",
+        "hash": "13497469641877329567"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/pagination/domain/Jhlite110PageableTest.java",
+        "hash": "14495371222630735936"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/pagination/domain/Jhlite110PagesFixture.java",
+        "hash": "3150509922474366694"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/pagination/infrastructure/primary/RestJhlite110PageTest.java",
+        "hash": "8931456425567975074"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/pagination/infrastructure/primary/RestJhlite110PageableTest.java",
+        "hash": "9841004470250382038"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/pagination/infrastructure/secondary/Jhlite110PagesTest.java",
+        "hash": "7358141572779479811"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/useridentity/domain/EmailTest.java",
+        "hash": "12966748338100382124"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/useridentity/domain/FirstnameTest.java",
+        "hash": "17778743150750970744"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/useridentity/domain/LastnameTest.java",
+        "hash": "18087637589412197890"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/useridentity/domain/NameTest.java",
+        "hash": "6638504364936629631"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/shared/useridentity/domain/UsersIdentitiesFixture.java",
+        "hash": "10584236611872206421"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/wire/cache/infrastructure/secondary/CacheConfigurationIT.java",
+        "hash": "9517980664120794068"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/wire/cache/infrastructure/secondary/CacheConfigurationTest.java",
+        "hash": "2232309092548240444"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/wire/cache/infrastructure/secondary/Hibernate2ndLevelCacheConfigurationIT.java",
+        "hash": "1872497380675887550"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/wire/kafka/infrastructure/config/KafkaPropertiesTest.java",
+        "hash": "5723373836240904443"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/wire/liquibase/infrastructure/secondary/AsyncSpringLiquibaseTest.java",
+        "hash": "5322460402991724878"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/wire/liquibase/infrastructure/secondary/LiquibaseConfigurationIT.java",
+        "hash": "8642415070170682489"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/wire/liquibase/infrastructure/secondary/SpringLiquibaseUtilTest.java",
+        "hash": "17492790531419882292"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/wire/mongodb/infrastructure/secondary/JSR310DateConvertersTest.java",
+        "hash": "18312136081318984490"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/wire/redis/infrastructure/secondary/JSR310DateConvertersTest.java",
+        "hash": "5408735572858941275"
+      },
+      {
+        "file": "src/test/java/com/mycompany/myapp/wire/security/infrastructure/primary/CorsFilterConfigurationIT.java",
+        "hash": "8617268039371914941"
+      },
+      {
+        "file": "src/test/javascript/integration/.eslintrc.js",
+        "hash": "17401677213628355397"
+      },
+      {
+        "file": "src/test/javascript/integration/common/primary/app/Home.spec.ts",
+        "hash": "17326752819581758974"
+      },
+      {
+        "file": "src/test/javascript/integration/cypress-config.ts",
+        "hash": "1153711045157344398"
+      },
+      {
+        "file": "src/test/javascript/integration/tsconfig.json",
+        "hash": "13108817855824326251"
+      },
+      {
+        "file": "src/test/javascript/spec/common/domain/Optional.spec.ts",
+        "hash": "1571797600886388470"
+      },
+      {
+        "file": "src/test/resources/META-INF/spring.factories",
+        "hash": "68107298882929599"
+      },
+      {
+        "file": "src/test/resources/archunit.properties",
+        "hash": "8896368256411314082"
+      },
+      {
+        "file": "src/test/resources/config/application-test.yml",
+        "hash": "8323874692596093741"
+      },
+      {
+        "file": "src/test/resources/logback.xml",
+        "hash": "18073129373090802547"
+      },
+      {
+        "file": "tsconfig.app.json",
+        "hash": "4013240731175477967"
+      },
+      {
+        "file": "tsconfig.json",
+        "hash": "1093695405459737015"
+      },
+      {
+        "file": "tsconfig.spec.json",
+        "hash": "12784156840425029026"
+      }
+    ]
+  }
+}

@@ -4,6 +4,10 @@ import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.*;
 
 import ch.qos.logback.classic.Level;
+import com.mycompany.myapp.Logs;
+import com.mycompany.myapp.LogsSpy;
+import com.mycompany.myapp.LogsSpyExtension;
+import com.mycompany.myapp.UnitTest;
 import java.sql.Connection;
 import java.sql.SQLException;
 import java.time.Duration;
@@ -19,10 +23,6 @@ import org.springframework.boot.autoconfigure.liquibase.LiquibaseProperties;
 import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.core.env.Environment;
 import org.springframework.mock.env.MockEnvironment;
-import com.mycompany.myapp.Logs;
-import com.mycompany.myapp.LogsSpy;
-import com.mycompany.myapp.LogsSpyExtension;
-import com.mycompany.myapp.UnitTest;
 
 @UnitTest
 @ExtendWith(LogsSpyExtension.class)
@@ -31,6 +31,7 @@ class AsyncSpringLiquibaseTest {
   private final ConfigurableEnvironment environment = new MockEnvironment();
   private final Executor executor = spy(new DirectExecutor());
   private final LiquibaseProperties liquibaseProperties = new LiquibaseProperties();
+
   @Logs
   private LogsSpy logs;
 
@@ -117,7 +118,6 @@ class AsyncSpringLiquibaseTest {
       logs.shouldHave(Level.DEBUG, "Liquibase has updated your database in");
       logs.shouldHave(Level.WARN, "Warning, Liquibase took more than %s seconds to start up!".formatted(slownessThreshold.toSeconds()));
     }
-
   }
 
   private static class DirectExecutor implements Executor {
@@ -156,7 +156,6 @@ class AsyncSpringLiquibaseTest {
       }
       return source;
     }
-
 
     @Override
     protected Liquibase createLiquibase(Connection c) {

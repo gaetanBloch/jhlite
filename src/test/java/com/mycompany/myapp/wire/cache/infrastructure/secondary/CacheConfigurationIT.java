@@ -2,6 +2,7 @@ package com.mycompany.myapp.wire.cache.infrastructure.secondary;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import com.mycompany.myapp.IntegrationTest;
 import javax.cache.Cache;
 import javax.cache.CacheManager;
 import org.ehcache.config.CacheRuntimeConfiguration;
@@ -10,7 +11,6 @@ import org.ehcache.jsr107.Eh107Configuration;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
-import com.mycompany.myapp.IntegrationTest;
 
 @IntegrationTest(properties = { "application.cache.ehcache.max-entries=1000", "application.cache.ehcache.time-to-live-seconds=86400" })
 class CacheConfigurationIT {

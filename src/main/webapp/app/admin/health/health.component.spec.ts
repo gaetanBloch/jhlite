@@ -1,13 +1,13 @@
-import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
-import { HttpClientTestingModule } from '@angular/common/http/testing';
 import { HarnessLoader } from '@angular/cdk/testing';
-import { MatDialogHarness } from '@angular/material/dialog/testing';
 import { TestbedHarnessEnvironment } from '@angular/cdk/testing/testbed';
+import { HttpClientTestingModule } from '@angular/common/http/testing';
+import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
+import { MatDialogHarness } from '@angular/material/dialog/testing';
 import { of } from 'rxjs';
 
 import HealthComponent from './health.component';
-import { HealthService } from './health.service';
 import { Health } from './health.model';
+import { HealthService } from './health.service';
 
 describe('HealthComponent', () => {
   let comp: HealthComponent;
@@ -41,12 +41,14 @@ describe('HealthComponent', () => {
 
       // THEN
       expect(service.checkHealth).toHaveBeenCalled();
-      expect(service.checkHealth().subscribe({
-        next: () => expect(comp.datasource).toEqual([{"details": {"mailDetail": "mail"}, "key": "mail", "status": "UP"}]),
-      }));
+      expect(
+        service.checkHealth().subscribe({
+          next: () => expect(comp.datasource).toEqual([{ details: { mailDetail: 'mail' }, key: 'mail', status: 'UP' }]),
+        })
+      );
     });
 
-    it('should call checkHealth on refresh', (done) => {
+    it('should call checkHealth on refresh', done => {
       // GIVEN
       const health: Health = { status: 'UP', components: { mail: { status: 'UP', details: { mailDetail: 'mail' } } } };
       jest.spyOn(service, 'checkHealth').mockImplementation(() => of(health));
@@ -65,8 +67,8 @@ describe('HealthComponent', () => {
       // GIVEN
       const health: Health = {
         status: 'UP',
-        components: null
-      }
+        components: null,
+      };
 
       // WHEN
       comp.showHealth(health);
@@ -85,5 +87,4 @@ describe('HealthComponent', () => {
       expect(downBadgeClass).toEqual('bg-danger');
     });
   });
-
 });

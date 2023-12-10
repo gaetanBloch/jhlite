@@ -2,11 +2,11 @@ package com.mycompany.myapp.shared.memoizer.domain;
 
 import static org.assertj.core.api.Assertions.*;
 
+import com.mycompany.myapp.UnitTest;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.function.Function;
 import java.util.function.Supplier;
 import org.junit.jupiter.api.Test;
-import com.mycompany.myapp.UnitTest;
 
 @UnitTest
 class MemoizersTest {

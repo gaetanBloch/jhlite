@@ -1,10 +1,9 @@
 package com.mycompany.myapp.shared.pagination.domain;
 
+import com.mycompany.myapp.shared.error.domain.Assert;
+import com.mycompany.myapp.shared.generation.domain.ExcludeFromGeneratedCodeCoverage;
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
-
-import com.mycompany.myapp.shared.generation.domain.ExcludeFromGeneratedCodeCoverage;
-import com.mycompany.myapp.shared.error.domain.Assert;
 
 public class Jhlite110Pageable {
 
